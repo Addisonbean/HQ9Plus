@@ -6,7 +6,7 @@ def main file
 	i = 0
 	cmds.each { |c|
 		unless c.match /\s/
-			case c
+			case c.upcase
 			when "H" then puts "Hello, world!"
 			when "Q" then puts code
 			when "+" then i += 1
