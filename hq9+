@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+
+def main file
+	code = `cat #{file}`
+	cmds = code.split ''
+	i = 0
+	cmds.each { |c|
+		unless c.match /\s/
+			case c
+			when "H" then puts "Hello World"
+			when "Q" then puts code
+			when "+" then i += 1
+			when "9"
+				(1..99).reverse_each { |n|
+					word = if n == 1
+								"bottle"
+							else
+								"bottles" 
+							end
+					word2 = if n - 1 == 1
+								"bottle"
+							else
+								"bottles" 
+							end
+					puts "#{n} #{word} of beer on the wall, #{n} bottles of beer, take one down, pass it around, #{n - 1} #{word2} of beer on the wall."
+				}
+			end
+		end
+	}
+end
+
+if __FILE__ == $0
+	main ARGV[0]
+end
