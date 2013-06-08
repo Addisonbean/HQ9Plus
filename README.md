@@ -2,7 +2,7 @@
 
 This is a HQ9+ interpreter written in ruby. To install it just run this command
 
-    curl 'https://raw.github.com/Addisonbean/HQ9Plus/master/hq9+' -o '/usr/local/bin/hq9+'
+    sudo curl 'https://raw.github.com/Addisonbean/HQ9Plus/master/hq9+' -o '/usr/local/bin/hq9+'; sudo chmod +x '/usr/local/bin/hq9+'
 
 Then to run a file type
 
