@@ -18,5 +18,7 @@ The Q is a quinne (it prints its own source code).
 
 The 9 command prints all the lyrics to 99 bottles of beer on the wall.
 
-The + command increments the accumulator (like accumulator++ in other languages)
+The + command increments the accumulator by 1
+
+For an official reference go here: [cliffle.com/esoterica/hq9plus.html](http://cliffle.com/esoterica/hq9plus.html)
 
