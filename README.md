@@ -8,11 +8,11 @@ Then to run a file type
 
     hq9+ <filename>
 
-# HQ9+ Tutorial
+### HQ9+ Tutorial
 
 HQ9+ is actualy an easy programming language to learn. There are 4 commands: H, Q, 9, and +.
 
-The H command prints 'Hello World!'.
+The H command prints 'Hello, world!'.
 
 The Q is a quinne (it prints its own source code).
 

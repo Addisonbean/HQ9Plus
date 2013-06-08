@@ -7,7 +7,7 @@ def main file
 	cmds.each { |c|
 		unless c.match /\s/
 			case c
-			when "H" then puts "Hello World"
+			when "H" then puts "Hello, world!"
 			when "Q" then puts code
 			when "+" then i += 1
 			when "9"
